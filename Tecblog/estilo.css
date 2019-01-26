@@ -1,0 +1,95 @@
+/*limpar formatação padrão*/
+* { margin: 0;
+	padding: 0; }
+
+body {font-size: 17px;
+	  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	  background-color: #331a00;}
+
+
+
+#navegacao { background-color: #873600;
+			border-bottom: 1px solid gray;
+			height: 50px; 
+			position: fixed;
+			width: 100%;
+			top: 0; }
+
+
+#area { width: 950px;
+		margin: 6px auto;
+		border: none;
+		padding: 0px;}
+
+#area-principal { width: 950px;
+		margin: 60px auto 15px auto;
+		border: 0px solid red; }
+
+
+#logo{ float: left; }
+
+
+#menu{ float: right;
+	   padding: 10px; } 
+
+
+#postagem { background-color: #873600;
+			padding: 10px;
+			margin-bottom: 15px;
+			width: 900px;
+			margin: auto auto 15px auto;  }
+
+
+	a{ text-decoration: none;
+	   padding:10px 10px; }
+
+
+	a:link { color: orange; } /* Links não visitados, cor Laranja*/
+
+	a:visited { color: gray; } /* Links visitados, cor Cinza*/
+
+	a:hover { color: black; 
+	    	  background: #D1CA2F;} /* Quando passado o mause em cima, cor Verde Escuro*/
+
+	a:active { color: lightblue; } /* Quando clicado, cor Verde claro*/
+
+.esverdeado { color: #D1CA2F }
+
+.data-postagem{ font-size: 14px;
+				border-bottom: 2px solid grey;
+				display: block;
+				padding-bottom: 10px;
+				margin-bottom: 10px; }
+
+
+.img-postagem{ float: left;
+			   margin:0 10px 5px 0px; }
+
+
+
+.postado{border-left: 7px solid #331a00;
+		padding-left: 10px;
+		display: block;
+		margin-top: 10px;}
+
+
+
+
+.contato { padding-top: 50px;
+	padding-left: 5px;
+			}
+
+
+.contato2 {background-color: #873600;
+		   margin-top: 50px;
+		   width: 550px;
+		   padding: 10px; }
+
+
+.areap2{
+width: 1000px;
+margin: 70px auto 15px auto;
+padding-right: : 100px }
+
+.imagem {margin-top: 30px;
+	float: right;}
